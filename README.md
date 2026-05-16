@@ -57,14 +57,7 @@ Hi, I'm Prasad – an enthusiastic Full Stack Developer with a flair for buildin
 </p>
 <!-- Add, remove, or reorder based on your toolset -->
 
-<!-- ==================== GITHUB STATS & GRAPHS ==================== -->
-## 📊 GitHub Stats  
-<p align="center">
-  <!-- GitHub Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=GaikawadaPrasad&show_icons=true&theme=radical&border_radius=20" height="170" alt="stats"/>
-  <!-- Streak Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=GaikawadaPrasad&theme=radical&border_radius=20" height="170" alt="streak"/>
-</p>
+
 
 <!-- ==================== MOST USED LANGUAGES ==================== -->
 <p align="center">
