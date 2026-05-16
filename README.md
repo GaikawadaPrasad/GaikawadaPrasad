@@ -62,7 +62,7 @@ Hi, I'm Prasad — an enthusiastic Full Stack Developer passionate about buildin
 | [**Gaming Website**](https://github.com/GaikawadaPrasad) | Interactive mini-games platform including Tic-Tac-Toe, Memory Game & Rock-Paper-Scissors | HTML, CSS, JavaScript |
 | [**RoyaleStats**](https://github.com/GaikawadaPrasad/RoyaleStats-frontend) | Real-time Clash Royale stats platform with API integration | Java, Spring Boot, REST API |
 | [**Habit Tracker**](https://github.com/GaikawadaPrasad/Habit-tracker) | Productivity app with authentication & realtime syncing | React.js, Firebase |
-| [**Chat Karo**](https://github.com/GaikawadaPrasad) | Real-time MERN chat application with Socket.io | MongoDB, Express.js, React.js, Node.js |
+| [**Chat Karo**](https://github.com/GaikawadaPrasad/chat-Kara-2.o) | Real-time MERN chat application with Socket.io | MongoDB, Express.js, React.js, Node.js |
 
 ---
 
