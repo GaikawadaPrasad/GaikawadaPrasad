@@ -9,9 +9,9 @@ Edit sections as desired. Badges/icons use live sources.
 </p>
 
 <!-- ==================== PROFILE PHOTO/AVATAR (Optional) ==================== -->
-<!-- <p align="center">
+<p align="center">
   <img src="https://avatars.githubusercontent.com/u/your-userID?v=4" width="140" />
-</p> -->
+</p> 
 
 <!-- ==================== ABOUT ME ==================== -->
 ## 👨‍💻 About Me
