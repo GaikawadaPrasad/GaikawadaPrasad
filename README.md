@@ -131,8 +131,8 @@ Hi, I'm Prasad – an enthusiastic Full Stack Developer with a flair for buildin
 <!-- ==================== CONNECT WITH ME ==================== -->
 ## 🌐 Connect With Me
 <p>
-  <a href="mailto:your-email@gmail.com"><img src="https://img.shields.io/badge/email-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/your-linkedin-id/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin" /></a>
+  <a href="mailto:venkatdurgaprasad755@gmail.com"><img src="https://img.shields.io/badge/email-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/prasadgaikawada//"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin" /></a>
   <!-- Add other socials: Twitter, Dev.to, Hashnode, Discord etc -->
 </p>
 
