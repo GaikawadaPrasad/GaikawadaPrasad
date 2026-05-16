@@ -1,9 +1,3 @@
-Here’s the cleaned version with:
-
-* ✅ All comments removed
-* ✅ Typing animation removed
-* ✅ Simple heading: **Hi I'm Gaikawada Prasad**
-
 # Hi I'm Gaikawada Prasad 👋
 
 ## 👨‍💻 About Me
