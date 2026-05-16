@@ -1,94 +1,102 @@
-<!--
-README STRUCTURE:
-Edit sections as desired. Badges/icons use live sources.
--->
-
-<!-- ==================== INTRO BANNER WITH TYPO-ANIMATION ==================== -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=38BDA4&center=true&vCenter=true&width=800&lines=Hi,+I'm+Prasad+Gaikawada+%F0%9F%91%8B;Full+Stack+Web+%26+ML+Developer;Passionate+about+open+source;I+turn+coffee+%E2%98%95%EF%B8%8F+into+code" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=38BDA4&center=true&vCenter=true&width=800&lines=Hi,+I'm+Prasad+Gaikawada+%F0%9F%91%8B;Full+Stack+Web+Developer;Passionate+about+Open+Source;I+turn+coffee+%E2%98%95%EF%B8%8F+into+code" alt="Typing SVG" />
 </p>
 
-<!-- ==================== PROFILE PHOTO/AVATAR (Optional) ==================== -->
-<!-- <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/your-userID?v=4" width="140" />
-</p> -->
+---
 
-<!-- ==================== ABOUT ME ==================== -->
 ## 👨‍💻 About Me
-<!-- You can personalize this paragraph -->
-Hi, I'm Prasad – an enthusiastic Full Stack Developer with a flair for building modern web applications and practical machine learning solutions.  
-- 🚀 Love crafting interactive UIs & robust backends
-- 🤖 Enjoy experimenting with AI/ML in Python
-- 🔗 Open-source contributor & team player
-- 🎯 Always learning, always caffeinated!
 
-<!-- ==================== TECH STACK / BADGES ==================== -->
+Hi, I'm Prasad — an enthusiastic Full Stack Developer passionate about building modern web applications and creating engaging user experiences.
+
+- 🚀 Love crafting interactive UIs & scalable backends
+- ⚡ Focused on clean, performant code
+- 🤖 Enjoy experimenting with Python & backend development
+- 🔗 Open-source enthusiast & continuous learner
+- 🎯 Always exploring new technologies
+
+---
+
 # 🛠️ Tech Stack
 
 ## 🎨 Frontend
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## ⚙️ Backend
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 
-## 🗄️ Database
+## 🗄️ Database & Cloud
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Firebase Realtime Database](https://img.shields.io/badge/Firebase_Realtime_Database-039BE5?style=for-the-badge&logo=firebase&logoColor=white)
 ![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
 
 ## 🧰 Tools & Platforms
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
+---
 
-<!-- ==================== TOOLS & TECHNOLOGIES ==================== -->
-## 🛠️ Tools & Technologies  
-<p>
-  <img src="https://img.shields.io/badge/VS%20Code-313131?style=flat-square&logo=visual-studio-code&logoColor=007ACC" />
-  <img src="https://img.shields.io/badge/GitHub-A9A9A9?style=flat-square&logo=github" />
-  <img src="https://img.shields.io/badge/Heroku-7267CB?style=flat-square&logo=heroku&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
-</p>
-<!-- Add, remove, or reorder based on your toolset -->
+## 📊 GitHub Stats
 
-
-
-<!-- ==================== MOST USED LANGUAGES ==================== -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GaikawadaPrasad&layout=compact&langs_count=7&theme=radical&hide=ShaderLab,HLSL&border_radius=20" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=GaikawadaPrasad&show_icons=true&theme=radical&border_radius=20" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GaikawadaPrasad&layout=compact&langs_count=7&theme=radical&border_radius=20" height="170" />
 </p>
 
+---
 
-<!-- ==================== TROPHIES ==================== -->
+## 🔥 GitHub Streak
+
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=GaikawadaPrasad&column=6&theme=gruvbox&margin-w=10&margin-h=10" />
+  <img src="https://streak-stats.demolab.com?user=GaikawadaPrasad&theme=radical&border_radius=20" />
 </p>
 
-<!-- ==================== FEATURED PROJECTS ==================== -->
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=GaikawadaPrasad&theme=gruvbox&column=6&margin-w=10&margin-h=10" />
+</p>
+
+---
+
 ## 🚀 Featured Projects
+
 | Project | Description | Tech |
 |---------|-------------|------|
-| [**IntelliSense-web**](https://github.com/GaikawadaPrasad/IntelliSense-web) | Smart web app with advanced JS (97% JS, flagship project) | JavaScript, CSS |
-| [**RoyaleStats**](https://github.com/GaikawadaPrasad/RoyaleStats-frontend) ([backend](https://github.com/GaikawadaPrasad/RoyaleStats-backend)) | Real-time stats web platform (full-stack JS + Java) | JS, CSS, Java |
-| [**IntelliSense-Ml**](https://github.com/GaikawadaPrasad/IntelliSense-Ml) | ML/AI experiments & tools | Python |
-| [**Sri-Sri-Associates**](https://github.com/GaikawadaPrasad/Sri-Sri-Associates-frontend) ([backend](https://github.com/GaikawadaPrasad/Sri-Sri-Associates-backend)) | Business web solution (full-stack JS) | JavaScript |
-| [**Habit-tracker**](https://github.com/GaikawadaPrasad/Habit-tracker) | Productivity habit app | JavaScript |
+| [**Gaming Website**](https://github.com/GaikawadaPrasad) | Interactive mini-games platform including Tic-Tac-Toe, Memory Game & Rock-Paper-Scissors | HTML, CSS, JavaScript |
+| [**RoyaleStats**](https://github.com/GaikawadaPrasad/RoyaleStats-frontend) | Real-time Clash Royale stats platform with API integration | Java, Spring Boot, REST API |
+| [**Habit Tracker**](https://github.com/GaikawadaPrasad/Habit-tracker) | Productivity app with authentication & realtime syncing | React.js, Firebase |
+| [**Chat Karo**](https://github.com/GaikawadaPrasad) | Real-time MERN chat application with Socket.io | MongoDB, Express.js, React.js, Node.js |
 
-<!-- ==================== CONNECT WITH ME ==================== -->
+---
+
 ## 🌐 Connect With Me
-<p>
-  <a href="mailto:your-email@gmail.com"><img src="https://img.shields.io/badge/email-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/prasadgaikawada/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin" /></a>
 
+<p align="left">
+  <a href="mailto:your-email@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/prasadgaikawada/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
 </p>
+
+---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=GaikawadaPrasad&style=flat-square&color=38BDA4" alt="profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=GaikawadaPrasad&style=for-the-badge&color=38BDA4" alt="Profile Views"/>
 </p>
-
