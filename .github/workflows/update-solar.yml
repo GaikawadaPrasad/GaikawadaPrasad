@@ -1,0 +1,62 @@
+name: Update Solar Profile SVGs
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs automatically once every 24 hours
+  workflow_dispatch: # Allows you to manually trigger it anytime with one click
+
+jobs:
+  update-svgs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Fetch and clean SVGs
+        run: |
+          python - << 'EOF'
+          import urllib.request
+          import re
+          import os
+
+          headers = {'User-Agent': 'Mozilla/5.0'}
+          urls = {
+              'solar-orbits.svg': 'https://www.gitskins.com/api/section/solar-orbits?username=gaikawadaprasad&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F162814667%3Fu%3Df305f86a56d2fe0ec491fa691d365a6d90d8bb2c%26v%3D4&mode=dark&v=2026-11-11',
+              'solar-about.svg': 'https://www.gitskins.com/api/section/solar-about?username=gaikawadaprasad&mode=dark&v=2026-11-11',
+              'solar-card-3d.svg': 'https://www.gitskins.com/api/section/solar-card?username=gaikawadaprasad&i=0&r=3d-portfolio&mode=dark&v=2026-11-11',
+              'solar-card-fittrack.svg': 'https://www.gitskins.com/api/section/solar-card?username=gaikawadaprasad&i=1&r=FitTrack&mode=dark&v=2026-11-11',
+              'solar-card-terminal.svg': 'https://www.gitskins.com/api/section/solar-card?username=gaikawadaprasad&i=2&r=terminal-portfolio&mode=dark&v=2026-11-11',
+              'solar-card-habit.svg': 'https://www.gitskins.com/api/section/solar-card?username=gaikawadaprasad&i=3&r=Habit-tracker&mode=dark&v=2026-11-11',
+              'solar-stack.svg': 'https://www.gitskins.com/api/section/solar-stack?username=gaikawadaprasad&mode=dark&v=2026-11-11',
+              'solar-log.svg': 'https://www.gitskins.com/api/section/solar-log?username=gaikawadaprasad&mode=dark&v=2026-11-11'
+          }
+
+          os.makedirs('assets', exist_ok=True)
+          wm_pattern = re.compile(r'<g aria-label="Pro preview[^>]*>.*?</g>\s*</g>', re.DOTALL)
+
+          for filename, url in urls.items():
+              try:
+                  req = urllib.request.Request(url, headers=headers)
+                  with urllib.request.urlopen(req) as resp:
+                      content = resp.read().decode('utf-8', errors='ignore')
+                  cleaned = wm_pattern.sub('', content)
+                  with open(os.path.join('assets', filename), 'w', encoding='utf-8') as f:
+                      f.write(cleaned)
+                  print(f'Updated {filename}')
+              except Exception as e:
+                  print(f'Error updating {filename}: {e}')
+          EOF
+
+      - name: Commit & push updated SVGs
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add assets/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update Solar System SVGs [skip ci]" && git push)
