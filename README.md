@@ -41,14 +41,14 @@
 
 <br/>
 
-<!-- Contribution Activity Log -->
+<!-- Contribution Activity Log 
 <p align="center">
   <img width="100%" alt="Activity Log & Streak" src="./assets/solar-log.svg" />
 </p>
 
 <br/>
 
----
+-->
 
 <!-- Connect / Socials -->
 <p align="center">
